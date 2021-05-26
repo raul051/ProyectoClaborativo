@@ -4,4 +4,4 @@ COlaboradores
 
 1.- José Raúl -> Contenido
 2.- Josthin Hernandez Tehozol -> Cabecera
-3.- Miguel
+3.- Miguel Angel Ortiz -> Footer
