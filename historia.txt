@@ -2,6 +2,6 @@ Practica de proyecto colaborativo usando diferentes ramas
 
 COlaboradores
 
-1.- José Raúl
+1.- José Raúl -> Contenido
 2.- Josthin
 3.- Miguel
