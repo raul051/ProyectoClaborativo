@@ -3,5 +3,5 @@ Practica de proyecto colaborativo usando diferentes ramas
 COlaboradores
 
 1.- José Raúl -> Contenido
-2.- Josthin
+2.- Josthin Hernandez Tehozol -> Cabecera
 3.- Miguel
