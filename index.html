@@ -5,11 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Colaborativo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link rel="stylesheet" href="css/bootnavbar.css">
+<style>
+  .header-cont {
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  .navbar
+  {
+    background-color: white !important;
+  }
+  .img
+  {
+    width: 80px;
+  }
+  </style>
+  </head>
 <body>
     <header>
-        <h1>Esto es el Header</h1>
+      <div class="header-cont">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main_navbar">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo.png" class="img"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Nosotros</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                             Carreras
+                          </a>
+                          <ul class="dropdown-menu">
+                              
+                              <li><a class="dropdown-item" href="#">Ingeniería en Entornos Virtuales y Negocios Digitales</a></li>
+                              <li><a class="dropdown-item" href="#">Ingeniería en Desarrollo y Gestión de Software</a></li>
+                              <li><a class="dropdown-item" href="#">Ingeniería en Redes Inteligentes y Ciberseguridad</a></li>
+                              <li>
+                                  <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" href="#">Contacto</a></li>                            
+                          </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link " href="#" tabindex="-1" aria-disabled="false">Ubicación</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+              </div>
+          </div>
+      </nav>
+  </div>
     </header>
     <main class="container">
         <h2>Esto es el Main</h2>
@@ -48,5 +109,14 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="js/bootnavbar.js"></script>
+    <script>
+        new bootnavbar();
+        // (function () {
+        // });
+    </script>
+  </body>
 </html>
